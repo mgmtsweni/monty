@@ -54,9 +54,7 @@ int main(int argc, char *argv[])
 		else
 		{
 			if (get_op_func(token) != 0)
-			{
 				get_op_func(token)(&h, line);
-			}
 			else
 			{
 				free_dlist(&h);
